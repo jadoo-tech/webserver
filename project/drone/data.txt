@@ -1,0 +1,7 @@
+Images:
+
+Information: The drone team is an extension of the energy storage team, focused on applying the technology.
+
+Details: Ultra capacitors open the door for applications like drones, which benefit the most from having an energy storage medium with orders of magnitude greater energy storage density than previous technologies. This applied research team is evaluating the technical feasiblity of integrating our energy storage technology into high mobility aerial vehicles. Further applications are evaluating this technology in the context of long range, high lift capacity, and autonomous drones.
+
+Team Members:

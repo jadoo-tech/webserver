@@ -1,0 +1,7 @@
+Images:
+
+Information: Manipulating plasma streams using carbon nanotubes to form a focused beam of energy.
+
+Details: The same lithographic techniques can be used to focus beams of plasma, creating a jet of concentrated energy which can be used in satallite applications, and similarily for cutting.
+
+Team Members:

@@ -1,0 +1,7 @@
+Images:
+
+Information: Focusing electron beams can be done through modulating carbon nanotubes.
+
+Details: Current lithography technology is dominated by ASML, primarily supplying TSMC. Their machines have multi-million dollar price tags, and are a large bottleneck for the industrial chip production capacity of the United States. Our technology would greatly decrease the cost of certain steps of this process, also democratizing access to lithography.
+
+Team Members:

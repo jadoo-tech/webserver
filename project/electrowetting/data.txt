@@ -1,0 +1,7 @@
+Images:
+
+Information: Microfluidic manipulation of fluids through carbon nanotubes.
+
+Details: The lithographic technology we're investigating for its namesake purpose can be used for the microfluidics.
+
+Team Members:

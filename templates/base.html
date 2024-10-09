@@ -8,6 +8,9 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
 </head>
 <body>
-    {% block content %}{% endblock %}
+    <div class="text-white bg-black h-screen">
+        {% include "nav.html" %}
+        {% block content %}{% endblock %}
+    </div>
 </body>
 </html>

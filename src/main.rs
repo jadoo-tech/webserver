@@ -1,4 +1,6 @@
 
+mod routes;
+
 use std::time::Duration;
 
 use askama::Template;
@@ -47,6 +49,7 @@ async fn main() {
     let app = Router::new()
         .route("/", get(index))
         .route("/always-fails", get(always_fails))
+        .nest("/project", routes::project_router().await)
         .nest_service("/favicon.ico", ServeFile::new("static/favicon.svg"))
         .nest_service("/static", ServeDir::new("static"))
         .layer(

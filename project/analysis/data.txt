@@ -1,0 +1,13 @@
+Images:
+
+Information: The analysis team integrates our custom analysis frameworks, based on physical interactions, with state of the art large language models. 
+
+Details: This team has three areas.
+
+1. Biomolecular Analysis: Using our models of carbon nanotube interactions with analytes, we can characterize their interactions and utilize those calculations for further downstream modelling used to acquire our data.
+
+2. Ultrahigh Energy Analysis: Similarily, we have models for the thermal and voltaic models of our carbon nanotube systems ability to act as batteries. Simulations of these systems inform our research direction in further developing this technology.
+
+3. Personal Research Assistant: We use large language models, combined with our internal research data, to help researchers and external shareholders understand different aspects of our work. This techonology is equivalently deployed in large enterprise clusters to perform internal intelligence management, and uses the latest retrieval augmented generation technologies.
+
+Team Members:

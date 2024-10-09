@@ -1,0 +1,7 @@
+Images:
+
+Information: Carbon nanotubes can be used as an ultracapacitor, providing a revolutionary alternative to current battery technologies.
+
+Details: Current battery technologies rely on precious or rare metals, which may be ecological damaging to mine, and rely on geopolitically unstable supply routes. Our technology not only relies on carbon, a very low cost material, but also boasts greater safety, less battery degredation, and reduced weight. Each of these factors means the maturation of our technology will entirely upend the current battery market.
+
+Team Members:

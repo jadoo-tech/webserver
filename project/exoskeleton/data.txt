@@ -1,0 +1,7 @@
+Images:
+
+Information: Combining our biosensing technology with our energy storage technology, we are creating a next generation, neurally connected body-integrated systems.
+
+Details: The primary application we are targetting is muscular recovery for stroke survivors. Through integrating our silicon-electrical systems with the body's neural-electrical systems, we're able to provide new opportunities for rehabilitation for patients. Our system further combines embedded systems with computer vision type machine learning systems to provide the patient an advanced sensor suite to help them understand their surroundings.
+
+Team Members:

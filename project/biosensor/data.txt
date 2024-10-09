@@ -1,0 +1,7 @@
+Images:
+
+Information: Healthcare professionals require the appropriate tools to understand biological systems. The Biosensor team is building a novel biomolecule sensor to help researchers and practicing professionals in this task.
+
+Details: Our sensor technology utilizes impedance spectroscopy to determine the character of the molecules in the system. Compared to previous impedance spectroscopy equipment, our technology is highly miniturized, has significantly more channels, and has increased fidelity. This technology can not only deployed at orders of magnitude lower costs, but can also be used in point-of-care applications, bringing rapid diagnostics to the people who rely on accurate and fast data the most. Further, we use microfluidics technologies within this application for further miniturization gains.
+
+Team Members:
