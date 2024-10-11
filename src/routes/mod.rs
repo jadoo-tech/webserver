@@ -3,12 +3,13 @@
 
 pub mod index;
 mod project;
+pub mod people;
 use project::*;
 
 use askama::Template;
 use axum::{response::{IntoResponse, Html}, routing::get, Router};
-
-
+use tracing::error;
+use crate::error::Error;
 
 pub async fn project_router() -> Router {
     Router::new()
@@ -27,3 +28,8 @@ async fn render_template<T: Template>(template: T) -> impl IntoResponse {
     Html(template.render().unwrap())
 }
 
+
+pub fn render_failure(err: askama::Error) -> Error {
+    error!("Template rendering failed: {}", err);
+    Error::InternalServerError
+}

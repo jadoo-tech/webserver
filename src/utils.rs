@@ -1,3 +1,5 @@
+use std::path::PathBuf;
+
 use tokio::process::Command;
 use tracing::{info, error};
 
@@ -8,28 +10,45 @@ pub async fn shutdown() {
     info!("Shutting down");
 }
 
-pub async fn build_css() {
-    let res = Command::new("tailwind")
+#[derive(Debug, thiserror::Error)]
+pub enum CssBuildError {
+    #[error("CSS build failed")]
+    Failed,
+}
+
+pub async fn build_css() -> Result<(), CssBuildError> {
+    let res = Command::new(
+        std::env::var("tailwind_path").unwrap()
+    )
         .args([
             "-i",
             "./src/styles.css",
             "-o",
-            "./static/styles.css",
+           "./static/styles.css",
             "--minify",
         ])
-        .status()
-        .await;
+        .spawn();
 
     match res {
-        Ok(status) => {
-            if !status.success() {
-                error!("CSS build failed");
-            } else {
-                println!("CSS build successful");
+        Ok(child) => {
+            let output = child.wait_with_output().await.unwrap();
+
+            match output.status.success() {
+                true => {
+                    println!("CSS build successful");
+                }
+                false => {
+                    println!("CSS build failed");
+                    dbg!(&output);
+                    return Err(CssBuildError::Failed);
+                }
             }
+
+            return Ok(());
         }
         Err(e) => {
-            error!("CSS build failed: {}", e);
+            println!("CSS build failed: {}", e);
+            return Err(CssBuildError::Failed);
         }
     }
 }

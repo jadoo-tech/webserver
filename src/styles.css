@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.project-card {
+    @apply bg-white text-blue-800 p-6 rounded-lg shadow-md hover:bg-gray-100 hover:border-blue-500 border-2 border-blue-400 transition duration-300;
+}
+
+.project-title {
+    @apply text-xl font-semibold mb-2;
+}
+
+.project-description {
+    @apply text-gray-600;
+}
+
+
+.person-card {
+    @apply bg-white p-6 rounded-lg shadow-md;
+}
+
+.person-image {
+    @apply w-32 h-32 rounded-full mx-auto mb-4;
+}
+
+.person-name {
+    @apply text-xl font-semibold mb-2 text-yellow-600;
+}
+
+.person-role {
+    @apply text-gray-600;
+}

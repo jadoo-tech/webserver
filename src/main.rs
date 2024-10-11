@@ -3,12 +3,14 @@ mod routes;
 mod app;
 mod utils;
 mod error;
+mod appstate;
+mod api;
 
-use std::time::Duration;
+use std::{net::SocketAddr, path::Path, time::Duration};
 
 use askama::Template;
 use axum::{
-    body::Body, extract::MatchedPath, http::{Request, StatusCode}, response::{Html, IntoResponse, Response}, routing::get, Router
+    body::Body, extract::MatchedPath, http::{Request, StatusCode}, response::{Html, IntoResponse, Response}, routing::get, Router, ServiceExt
 };
 
 use tokio::process::Command;
@@ -16,10 +18,8 @@ use tower_http::{classify::ServerErrorsFailureClass, services::{ServeDir, ServeF
 use log::{debug, error, info};
 use tracing::{info_span, Span};
 use tracing_subscriber::{layer::SubscriberExt, util::SubscriberInitExt};
-
 #[tokio::main]
 async fn main() {
-
     dotenvy::dotenv().ok();
 
     let prod = if std::env::var("ENV").unwrap_or("dev".to_string()) == "prod".to_string() {
@@ -30,7 +30,9 @@ async fn main() {
 
     println!("Running in mode: {}", if prod { "Production" } else { "Development" });
 
-    utils::build_css().await;
+    if let Err(e) = utils::build_css().await {
+        eprintln!("Error building CSS: {:?}", e);
+    }
 
     tracing_subscriber::registry()
         .with(
@@ -48,7 +50,6 @@ async fn main() {
         .with(tracing_subscriber::fmt::layer())
         .init();
 
-
     // run our app with hyper, listening globally on port 3000
     let mut port = 3000;
     if prod {
@@ -63,7 +64,6 @@ async fn main() {
 
     let listener = tokio::net::TcpListener::bind(format!("0.0.0.0:{}", port)).await.unwrap();
     println!("Listening on http://{}", listener.local_addr().unwrap());
-    axum::serve(listener, app::app().await).with_graceful_shutdown(utils::shutdown()).await.unwrap();
+    axum::serve(listener, app::app().await.into_make_service_with_connect_info::<SocketAddr>()).with_graceful_shutdown(utils::shutdown()).await.unwrap();
     println!("Server shutdown");
-
 }

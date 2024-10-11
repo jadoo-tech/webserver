@@ -2,4 +2,16 @@
 
 {% block content %}
 <h1>People</h1>
+
+<div>
+    <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {% for person in people %}
+            <div class="person-card">
+                <img src="{{ person.image }}" alt="{{ person.name }}" class="person-image">
+                <h3 class="person-name">{{ person.name }}</h3>
+                <p class="person-role">{{ person.role }}</p>
+            </div>
+        {% endfor %}
+    </ul>
+</div>
 {% endblock %}
