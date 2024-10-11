@@ -1,7 +1,7 @@
 
 
 
-
+pub mod index;
 mod project;
 use project::*;
 
@@ -26,3 +26,4 @@ pub async fn project_router() -> Router {
 async fn render_template<T: Template>(template: T) -> impl IntoResponse {
     Html(template.render().unwrap())
 }
+
