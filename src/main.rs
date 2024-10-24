@@ -5,6 +5,7 @@ mod utils;
 mod error;
 mod appstate;
 mod api;
+mod people;
 
 use std::{net::SocketAddr, path::Path, time::Duration};
 

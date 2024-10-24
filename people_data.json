@@ -1,0 +1,395 @@
+[
+{
+    "email": "akira_murata@berkeley.edu",
+    "image": "akira_murata.jpeg",
+    "name": "Akira Murata"
+},
+{
+    "email": "",
+    "image": "raymond_li_wang.jpeg",
+    "name": "Raymond Li Wang"
+},
+{
+    "email": "Jeffcheong@berkeley.edu",
+    "image": "jeff_cheong.jpg",
+    "name": "Jeff Cheong"
+},
+{
+    "email": "mireya.navarro.mx@berkeley.edu",
+    "image": "mireya_navarro.jpg",
+    "name": "Mireya Navarro"
+},
+{
+    "email": "",
+    "image": "laila_shirin_shaikh.jpeg",
+    "name": "Laila Shirin Shaikh"
+},
+{
+    "email": "",
+    "image": "lara_cetinel.jpeg",
+    "name": "Lara Cetinel"
+},
+{
+    "email": "",
+    "image": "jeffrey_y_liu.png",
+    "name": "Jeffrey Y Liu"
+},
+{
+    "email": "",
+    "image": "natalie_marie_jaramillo.png",
+    "name": "Natalie Marie Jaramillo"
+},
+{
+    "email": "",
+    "image": "marco_philip_cabebe.jpeg",
+    "name": "Marco Philip Cabebe"
+},
+{
+    "email": "",
+    "image": "hala_fouad_boges.jpeg",
+    "name": "Hala Fouad Boges"
+},
+{
+    "email": "",
+    "image": "faris_mohammad_babsail.jpeg",
+    "name": "Faris Mohammad Babsail"
+},
+{
+    "email": "",
+    "image": "kate_mai_verhagen.jpeg",
+    "name": "Kate Mai Verhagen"
+},
+{
+    "email": "",
+    "image": "luis_david_fonseca.jpeg",
+    "name": "Luis David Fonseca"
+},
+{
+    "email": "",
+    "image": "foster_eakin_angus.jpg",
+    "name": "Foster Eakin Angus"
+},
+{
+    "email": "yunzhi.lin@berkeley.edu",
+    "image": "yunzhi_lin.jpeg",
+    "name": "Yunzhi Lin"
+},
+{
+    "email": "yesung.cho@berkeley.edu",
+    "image": "yesung_cho.jpeg",
+    "name": "Yesung Cho"
+},
+{
+    "email": "marionfowler@berkeley.edu",
+    "image": "marion_fowler.heic",
+    "name": "Marion Fowler"
+},
+{
+    "email": "yyang18@berkeley.edu",
+    "image": "yuxin_yang.jpeg",
+    "name": "Yuxin Yang"
+},
+{
+    "email": "",
+    "image": "robert_rey_navarro.jpeg",
+    "name": "Robert Rey Navarro"
+},
+{
+    "email": "dvenkat@berkeley.edu",
+    "image": "deepa_venkat.jpeg",
+    "name": "Deepa Venkat"
+},
+{
+    "email": "",
+    "image": "david_da_na.jpeg",
+    "name": "David Da Na"
+},
+{
+    "email": "",
+    "image": "sivan_marie_rosen.jpeg",
+    "name": "Sivan Marie Rosen"
+},
+{
+    "email": "",
+    "image": "alan_wang_wei.JPG",
+    "name": "Alan Wang Wei"
+},
+{
+    "email": "jingyuan_wang@berkeley.edu",
+    "image": "mary_wang.JPG",
+    "name": "Mary Wang"
+},
+{
+    "email": "",
+    "image": "ben_yu.jpg",
+    "name": "Ben Yu"
+},
+{
+    "email": "",
+    "image": "nicolas_alexander_reed.jpg",
+    "name": "Nicolas Alexander Reed"
+},
+{
+    "email": "naimur@berkeley.edu",
+    "image": "naimur_rashid.png",
+    "name": "Naimur Rashid"
+},
+{
+    "email": "",
+    "image": "prathamesh_mitesh_trivedi.jpeg",
+    "name": "Prathamesh Mitesh Trivedi"
+},
+{
+    "email": "",
+    "image": "daniel_lee_mcgee_marin.jpeg",
+    "name": "Daniel Lee McGee Marin"
+},
+{
+    "email": "",
+    "image": "alex_myint_thu.jpg",
+    "name": "Alex Myint Thu"
+},
+{
+    "email": "eric.li09@berkeley.edu",
+    "image": "eric_li.png",
+    "name": "Eric Li"
+},
+{
+    "email": "Mnarsina@berkeley.edu",
+    "image": "manasi_narsina.jpg",
+    "name": "Manasi Narsina"
+},
+{
+    "email": "",
+    "image": "yoel_amanuel_nrayo.jpeg",
+    "name": "Yoel Amanuel Nrayo"
+},
+{
+    "email": "",
+    "image": "tallia_efraim.jpeg",
+    "name": "Tallia Efraim"
+},
+
+    {
+        "blurb": "I fabricate chips with CNTs and optimize the performance of the CNT-based devices we create. Additionally, I mentor and guide students within the research team on microfabrication, electronics, theoretical analysis and experimental methodology.",
+        "image": "mateusz_czajka.jpg",
+        "name": "Mateusz Czajka",
+        "teams": "Nanofab, Energy Storage, E-beam lithography, Biosensing"
+    },
+    {
+        "blurb": "I am working on many projects within the biosensing team including the quantification of our functionalized CNT's, running electrochemical impedance spectroscopy tests to determine concentrations based on impedance changes, designing and creating microfluidic devices through photolithography and soft lithography, and performing COMSOL analyses on our CNT chips.",
+        "image": "anthony_pentrack.jpg",
+        "name": "Anthony Pentrack",
+        "teams": "Biosensing"
+    },
+    {
+        "blurb": "For the biosensing team, I design and fabricate microfluidic devices, run electrochemical impedance spectroscopy tests, and conduct stress analysis of CNTs on COMSOL. I also work on all stages of microfabrication from mask design, photolithography, SEM imaging, and wafer dicing for BioMEMS applications.",
+        "image": "su_kyung_lee.jpg",
+        "name": "Su Kyung Lee",
+        "teams": "Biosensing, Energy Storage"
+    },
+    {
+        "blurb": "Working with UCSF to create a low-cost Perinatal Dialysis machine for pediatrics",
+        "image": "aryeetey_dalil_ashong.jpg",
+        "name": "Aryeetey Dalil Ashong",
+        "teams": "Design"
+    },
+    {
+        "blurb": "Working in the e-beam lithography project. Focusing on building the GUI to simulate e-beam lithography and connecting the software to the hardware.",
+        "image": "sasha_lamot.jpg",
+        "name": "Sasha Lamot",
+        "teams": "E-Beam Lithography"
+    },
+    {
+        "blurb": "I am working on revamping the website and adding features, as well as fixing the USB communication between the CNT's and the controllers.",
+        "image": "omer_ahmer.jpg",
+        "name": "Omer Ahmer",
+        "teams": "Software, E-Beam Lithography"
+    },
+    {
+        "blurb": "Helped test biosensing chips last sem, am currently working with the E-beam team and improving my coding skills. I am also working on threading the Wire Bonder",
+        "image": "humayd_zameer.jpg",
+        "name": "Humayd Zameer",
+        "teams": "Biosensing, E-Beam Lithography"
+    },
+    {
+        "blurb": "Run functionalization quantization procedure to determine the concentration through a low-pass filter by measuring the impedence",
+        "image": "august_nguyen.jpg",
+        "name": "August Nguyen",
+        "teams": "Biosensing"
+    },
+    {
+        "blurb": "I am developing software to implement an e-beam lithography simulation system. I am additionally spearheading the AR glasses project to cater to stroke victims.",
+        "image": "achyut_s._chebiyam.jpg",
+        "name": "Achyut S. Chebiyam",
+        "teams": "E-Beam Lithography, AR Glasses, Software"
+    },
+    {
+        "blurb": "I am developing software to implement an e-beam lithography simulation system. I am additionally spearheading the AR glasses project to cater to stroke victims.",
+        "image": "anikait_paliwal.jpg",
+        "name": "Anikait Paliwal",
+        "teams": "E-Beam Lithography, AR Glasses, Software"
+    },
+    {
+        "blurb": "I work on characterizing performance parameters of the CNT-based capacitor and investigating E-field-induced dielectric changes in nanolaminates.",
+        "image": "caroline_chen.jpg",
+        "name": "Caroline Chen",
+        "teams": "Energy Storage"
+    },
+    {
+        "blurb": "I work on fabricating the nanocapacitors and the CNT chips. I also perform chip testing to analyze our dielectric and device performance while investigating molecular changes in the nanolaminates which provides us with the superior dielectric constant.",
+        "image": "sanchay_gadia.jpg",
+        "name": "Sanchay Gadia",
+        "teams": "Energy Storage"
+    },
+    {
+        "blurb": "I work on the manifold design for functionalization of our chips as well as help with the design of our microfluidics pump to test the performance of our microfludic devices.",
+        "image": "shalen_ardeshna.jpg",
+        "name": "Shalen Ardeshna",
+        "teams": "Design"
+    },
+    {
+        "blurb": "I am a Materials Science and Engineering major working on developing theoretical models to investigate dielectrics of nanolaminates for carbon-nanotube based capacitors and model the relationship between the arrangement of the dielectric layers and the dielectric constant of the material.",
+        "image": "shankar_subramaniam.jpg",
+        "name": "Shankar Subramaniam",
+        "teams": "Energy Storage"
+    },
+    {
+        "blurb": "I am a bioengineering student working in the functionalization team, assisting with the quantification and analysis of functionalized CNTs.",
+        "image": "sabrina_fang.jpg",
+        "name": "Sabrina Fang",
+        "teams": "Biosensing"
+    },
+    {
+        "blurb": "",
+        "image": "michelle_asadulla.jpg",
+        "name": "Michelle Asadulla",
+        "teams": "Biosensing, Media"
+    },
+    {
+        "blurb": "I am a Computer Science student, part of the biosensing and software team. I am working on denoising and analysing the data returned from the functionalized carbon-nanotubes using Machine Learning. In addition I design and set up the database and configure the servers for the exoskeleton project",
+        "image": "costas_sarantinos.png",
+        "name": "Costas Sarantinos",
+        "teams": "Biosensing, Software"
+    },
+    {
+        "blurb": "I'm a bioengineering student, part of the biosensing team. I'm working in the functionalization team, assisting with the quantification and analysis of functionalized CNTs.",
+        "image": "emma_horne.jpg",
+        "name": "Emma Horne",
+        "teams": "Biosensing"
+    },
+    {
+        "blurb": "I am working on the design team to develop an electrochemical camera using CAD software that can handle data from 256 channels simultaneously. Specifically, I am setting up the electronics to design this camera.",
+        "image": "mansoor_mamnoon.jpg",
+        "name": "Mansoor Mamnoon",
+        "teams": "Design"
+    },
+    {
+        "blurb": "As a member of the biosensing team, I focus on the development of microfluidic devices, particularly in the computational fluid dynamics of carbon nanotube systems. Our goal is to design these devices to be compact, efficient, and cost-effective by leveraging capillary action for fluid movement within the system. I utilize COMSOL Multiphysics software and predictive modeling to assess flow rates and optimize system efficiency. Additionally, I am involved in the fabrication of these cartridge systems, conducting experimental trials to compare theoretical predictions with empirical data and further refine the design.",
+        "image": "veer_mistry.png",
+        "name": "Veer Mistry",
+        "teams": "Biosensing"
+    },
+    {
+        "blurb": "I am initiating research on cognitive neuroscience methods and finding a way to integrate them into the current technology with the hopes of tracking relevant biomarkers, brain waves, and other variables. Additionally, performing market analysis on e-beam lithography.",
+        "image": "jess_sanchez.jpg",
+        "name": "Jess Sanchez",
+        "teams": "Cognition, Business"
+    },
+    {
+        "blurb": "I am focused upon building the Python GUI that creates a simulation of the e-beam lithography while also connecting the software to the hardware.",
+        "image": "raymond_lin.png",
+        "name": "Raymond Lin",
+        "teams": "E-Beam Lithography"
+    },
+    {
+        "blurb": "I work on testing and developing theoretical models to investigate the functionality of the chips. I conduct tests to analyze the performance and calculate the bending of the electric field at the interface of the two layers of dielectric and relate it to the applied electric field and charge on the three electrodes.",
+        "image": "seoyun_kim.jpg",
+        "name": "Seoyun Kim",
+        "teams": "Energy Storage"
+    },
+    {
+        "blurb": "Refining microfluidic device fabrication techniques, and optimizing molds for casting PDMS microfluidic devices to enhance efficiency. Using COMSOL to simulate forces on carbon nanotube structures during wash steps and investigate ideal nanotube spacing for electrochemical impedance spectroscopy.",
+        "image": "yunzhi_lin.jpg",
+        "name": "Yunzhi Lin",
+        "teams": "Biosensing - COMSOL, Microfludics"
+    },
+    {
+        "blurb": "I'm working on the design team to develop an effective wiring harness for server and exoskeleton use. Additionally, I'm working on market analysis for the E-Beam Lithography project.",
+        "image": "evan_wong.jpg",
+        "name": "Evan Wong",
+        "teams": "Design, Business"
+    },
+    {
+        "blurb": "",
+        "image": "zoe_tenenbaum.png",
+        "name": "Zoe Tenenbaum",
+        "teams": "Fabrication"
+    },
+    {
+        "blurb": "",
+        "image": "chenyou_tang.jpg",
+        "name": "ChenYou Tang",
+        "teams": "Energy Storage"
+    },
+    {
+        "blurb": "I am currently working on Exo-Skeleton, Ankle. Researching and trying to manufacture a exo-skeleton for Professor Waqas's Father.",
+        "image": "ji_choi.jpg",
+        "name": "Ji Choi",
+        "teams": "Design - Exo skeleton"
+    },
+    {
+        "blurb": "I help conduct and troubleshoot tests on the microfluidics system, then analyze the data to get a standard result for future tests in the electrical impedance spectroscopy team",
+        "image": "joshua_sundjojo.jpg",
+        "name": "Joshua Sundjojo",
+        "teams": "Biosensing"
+    },
+    {
+        "blurb": "",
+        "image": "charlotte_law.jpg",
+        "name": "Charlotte Law",
+        "teams": "COMSOL Analysis"
+    },
+    {
+        "blurb": "I work on using machine learning to predict the dielectric property of materials to optimize the discovery of new capacitors.",
+        "image": "kinjal_govil.png",
+        "name": "Kinjal Govil",
+        "teams": "Energy Storage"
+    },
+    {
+        "blurb": "I am assisting with the quantification of functionalized CNTs",
+        "image": "laila_shaikh.jpg",
+        "name": "Laila Shaikh",
+        "teams": "Biosensing, Functionalization"
+    },
+    {
+        "blurb": "",
+        "image": "waqas_khalid.jpg",
+        "name": "Waqas Khalid",
+        "teams": ""
+    },
+    {
+        "blurb": "",
+        "image": "talha_ijaz.jpg",
+        "name": "Talha Ijaz",
+        "teams": "Software"
+    },
+    {
+        "blurb": "",
+        "image": "erin_kwon.jpg",
+        "name": "Erin Kwon",
+        "teams": "Design"
+    },
+    {
+        "blurb": "",
+        "image": "alanood_almarri.jpg",
+        "name": "Alanood Almarri",
+        "teams": "Biosensing"
+    },
+    {
+        "blurb": "",
+        "image": "catherine_tran.jpg",
+        "name": "Catherine Tran",
+        "teams": "Biosensing"
+    }
+    ]
