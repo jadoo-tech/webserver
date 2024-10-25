@@ -17,10 +17,9 @@ pub enum CssBuildError {
 }
 
 pub async fn build_css() -> Result<(), CssBuildError> {
-    let res = Command::new(
-        std::env::var("tailwind_path").unwrap()
-    )
+    let res = Command::new("npx")
         .args([
+            "tailwindcss",
             "-i",
             "./src/styles.css",
             "-o",

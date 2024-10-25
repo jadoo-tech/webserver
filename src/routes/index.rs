@@ -2,13 +2,15 @@ use askama_axum::Template;
 use axum::response::{Html, IntoResponse};
 
 
+use crate::api::person::{all_people, Person};
+
 use super::render_failure;
 
 
 
 pub async fn index() -> impl IntoResponse {
 
-    let index = IndexTemplate::new();
+    let index = IndexTemplate::new().await;
     index.render().map_err(render_failure).map(|u| Html(u))
 }
 
@@ -17,10 +19,11 @@ pub async fn index() -> impl IntoResponse {
 
 struct IndexTemplate {
     projects: Vec<Project>,
+    people: Vec<Person>,
 }
 
 impl IndexTemplate {
-    fn new() -> Self {
+    async fn new() -> Self {
 
         let projects = vec![
             Project { title: "Exoskeleton".to_string(), slug: "exoskeleton".to_string(), description: "Cutting-edge exoskeleton technology".to_string() },
@@ -32,7 +35,12 @@ impl IndexTemplate {
             Project { title: "Biosensor".to_string(), slug: "biosensor".to_string(), description: "Cutting edge biosensor research".to_string() },
             Project { title: "Analytics".to_string(), slug: "analytics".to_string(), description: "Advanced data analytics for nanotech".to_string() },
         ];
-        Self { projects }
+
+        let mut people = all_people().await;
+
+        let non_included = people.split_off(6);
+
+        Self { projects, people }
     }
 }
 

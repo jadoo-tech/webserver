@@ -41,7 +41,18 @@
 
             <div id="people-carousel" class="swiper-container">
                 <div class="swiper-wrapper grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Carousel items will be dynamically populated here -->
+                    {% for person in people %}
+                        <div class="swiper-slide">
+                            <div class="person-card">
+                                <div class="person-image-container relative h-48 w-48 overflow-hidden rounded-full">
+                                    <img src="/static/profile_pictures/{{ person.image }}" alt="{{ person.name }}" class="person-image absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full object-cover">
+                                </div>
+                                <h3 class="person-name">{{ person.name }}</h3>
+                                <p class="person-role">{{ person.teams }}</p>
+                                <p class="person-blurb">{{ person.blurb }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
                 </div>
                 <div class="swiper-pagination"></div>
                 <div class="swiper-button-next"></div>
@@ -49,6 +60,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- Projects Section -->
     <section class="py-16" id="projects">
@@ -75,6 +87,7 @@
         .then(response => response.json())
         .then(data => {
             const carouselWrapper = document.querySelector('#people-carousel .swiper-wrapper');
+
             data.forEach(person => {
                 const slide = document.createElement('div');
                 slide.className = 'swiper-slide';
